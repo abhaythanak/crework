@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    color: darkred;
+    background-image: url("universe.jpg.jpg");/*use webp for live image*/
+    text-align: center;
+    font-family: 'orbitron',sans-serif;
+}
+#hero {
+    background-image: url("universe.jpg.jpg");
+    background-size: cover;
+    padding: 10px 0px 40px 0px;
+
+}
+#main-logo{
+    width: 100px;
+}
+ .btn {
+    padding: 6px 12px;
+    background: chocolate;
+    border: none;
+    font-family: 'orbitron',sans-serif;
+    color: darkred;
+    font-weight: 800;
+}
+.und {
+    border-bottom: 4px solid red;
+}
+.shadow {
+    text-shadow: 0px 0px 4px black;
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+
+</head>
+<body>
+    <form action=""><!--as default only <form> // server is attache in action use <form action="php"-->
+        user name:<input type="text" name="uname" width="8" maxlength="10"/><!--input is specify operator maxlength is max. charector-->
+        <br/>
+         password:<input type="password" name="upass"/>
+         <br/>
+
+         gender:<input type="radio" name="gender" value="male"checked/>male
+                <input type="radio" name="gender" value="female"/>female
+                <br/>
+                <!--radiobotton is give the option to select  //  if enter checked default select spesific option-->
+        courses:<input type="checkbox" name="courses" value="HTML"checked/>HTML
+                <input type="checkbox" name="COURSE" value="CSS"/checked>CSS
+                <!--AS U CAN SEE ENTER CHECKED IN BOTH INPUT DEFAULT SELECT BOTH COURSES //CHECKBOX IS USE FOR -->
+                <br/>
+        AGE GROUP:<select name="Age">
+                <option>10-20</option>
+                <option>20-30</option>
+                <option>30-40</option>
+                <option>40-50</option>
+                <option>50-60</option>
+                <option>60-70</option>
+                <!--for selection use select tag // show option to use option tag-->
+        </select><br/>
+        comment:<textarea name="comment" rows="4" cols="5"> 
+        </textarea>
+            <br/>
+
+             <input type="submit" value="submit"/>
+             <input type="reset" value="reset"/>
+             <input type="button" value="click me"/>
+             <!--submit button  // reset button //click me button-->
+
+
+               
+
+    </form>
+</body>
+</html>
