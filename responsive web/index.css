@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+nav {
+    flex-grow: 1;
+    text-align: left;
+    
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+
+}
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+.col-1 h2 {
+    font-size: 54px;
+
+}
+.col-1 h3 {
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+
+}
+.col-1 p {
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+.col-1 h4 {
+  margin: 30px 0;
+  font-size: 20px;  
+}
+button {
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: white;
+    background: linear-gradient(to right,#fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+
+}
+button img {
+    width: 30px;
+    display: none;
+}
+button:hover img {
+    display: block;
+}
+button:hover {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col-2 {
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+
+}
+.col-2 .shoe {
+    width: 70%;
+
+}
+.color-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: linear-gradient(#ff54a2, #ff575a);
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    transform: translateX(-10px);
+    
+
+}
+.add-btn img{
+    width: 35px;
+    margin-bottom: 5px;
+
+}
+.add-btn {
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.ex-img {
+    position: absolute;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    transform: translateX(550px);
+    
+    
+    
+
+   
+}
+.imgc {
+    height: 200px;
+    border-radius: 20px;
+    width: 100%;
+    transform: translateY(400px);
+    padding: 10px 10px;   
+
+}
