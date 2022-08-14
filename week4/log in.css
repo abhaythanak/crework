@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    justify-content: center; 
+    background: linear-gradient(120deg, #fb5283, #ff3527);
+    height: 100vh;
+}
+.center {
+    padding: 0 40px;
+    position: absolute;
+    background: white;
+    top: 50%;
+    left: 50%;transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 400px;
+    box-sizing: border-box;
+}
+.center h1 {
+    text-align: center;
+
+}
+
+.txt {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+.txt input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.txt label {
+    position: absolute;
+    top: 0%;
+    left: 5px;
+    color: #fb5283;
+    transform: translateY(-50%);
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+.txt span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100px;
+    height: 2px;
+    
+}
+.txt input:focus ~ label,
+.txt input:valid ~ label {
+    top: -10px;
+    color: #fb5283;
+}
+.pass {
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+.pass:hover {
+    text-decoration: underline;
+}
+#login-button {
+    width: 30%;
+    height: 40px;
+    border: 1px solid;
+    background: #fb5283;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+#login-button:hover {
+    border-color: #ff3527;
+    transition: .5s;
+}
+.signup {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+.signup a {
+    color: #de2929;
+    
+}
+.signup a:hover {
+    text-decoration: underline;
+    color: #2691d9;
+}
+
+
+.email-error, .pass-error{
+    display: none;
+  }
+  
+  .email-error.show, .pass-error.show {
+    display: block;
+    color: red;
+    font-size: .75rem;
+    margin-top: .25rem;
+  }
+#eye {
+    position: absolute;
+    right: 4rem;
+    transform: translate(50%,-50%);
+    top: 48%;
+    cursor: pointer;
+
+}
+.fa fa-eye{
+    font-size: 20px;
+    color: #7a797e;
+}
+  
+

@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+       <title>Log in</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="log in.css">
+       <script src="login.js"></script>
+    </head>
+    <body>
+      <form name="form" id="form">
+        <div class="center">
+          <h1>Login</h1>
+          <div class="txt">
+            <input type="email" id="email" required>
+            <span></span>
+            <label for="">Email</label>
+          </div>
+          <span><i class="fa fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i></span>
+          <div class="txt">
+            
+            <input type="password" id="password" onclick="show()" required>
+            
+            <span></span>
+            
+            <label for="">password</label>
+          </div> 
+          <div class="pass">Forgot password</div>
+          
+          <input id="login-button" type="submit" value="Login" onclick="validate()" >
+          <div class="signup">Not a member? <a href="#">Signup</a></div>
+        </div>
+      </form>
+        
+
+    </body>
+</html>

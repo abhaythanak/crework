@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: sans-serif;
     width: 100%;
+    background: #f4a59f;
 
 }
 .container {
@@ -131,16 +132,13 @@ button:hover {
     cursor: pointer;
 }
 .ex-img {
+    width: 30%;
     position: absolute;
-    flex-basis: 60%;
+    flex-basis: 50%;
     display: flex;
-    align-items: center;
-    transform: translateX(550px);
-    
-    
-    
-
-   
+    align-items: baseline;
+    transform: translateX(200px);
+     
 }
 .imgc {
     height: 200px;
@@ -150,3 +148,20 @@ button:hover {
     padding: 10px 10px;   
 
 }
+
+ @media only screen and (max-width:700px) {
+    nav ul{
+        width: 100%;
+        background: linear-gradient(#ff54a2,#ff575a);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+ }   
