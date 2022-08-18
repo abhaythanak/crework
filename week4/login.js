@@ -1,7 +1,7 @@
 function validate()
 {
-  const email=document.getElementById("email").Value;
-  const password=document.getElementById("password").Value;
+  const email=document.getElementById("email").value;
+  const password=document.getElementById("password").value;
 
   if(email == "abhay@gmail.com" && password == "abhay")
   {
@@ -14,7 +14,7 @@ function validate()
 
 }
 let state = false
-function toggle(){
+function show() {
   if (state){
     document.getElementById("password")
     setAttribute("type","password");
