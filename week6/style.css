@@ -9,13 +9,14 @@ body {
     
 }
 .container {
-    padding:10px 80px 400px 80px ;
+    padding:10px 70px 50px 70px ;
     position: absolute;
     background: #141e30;
     top: 9rem;
     text-align: center;
     border-radius: 1rem;
     width: 400px;
+    color: white;
     
 }
 h1 span {
@@ -31,4 +32,7 @@ h1 span {
     padding: 5px 20px;
     border-radius: 13px;
     font-weight: bold;
+}
+.to-dos {
+    color: white;
 }
