@@ -20,8 +20,22 @@ body {
     
 }
 h1 span {
-    
-}
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #fbbc04, #feab3a);
+    -webkit-background-clip: text;
+
+    animation: colorChange 10s infinite linear;
+  }
+
+  @keyframes colorChange {
+    from {
+        -webkit-filter: hue-rotate(10deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }
+
 .txt {
     background: black;
     padding: 5px 70px;
@@ -35,4 +49,12 @@ h1 span {
 }
 .to-dos {
     color: white;
+}
+.del {
+    color: white;
+    background: black;
+    border-radius: 10px;
+}
+.del:hover {
+    background: red;
 }
